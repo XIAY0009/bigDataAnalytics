@@ -63,7 +63,7 @@ dpkg -i scala-2.12.4.deb
 ```
 3. Installs Maven (This is to Compile Java Files)
 * Download [Maven](https://maven.apache.org/download.cgi) and apache-maven-3.5.2-bin.tar.gz was download
-* ![Download Maven](images/downloadingMaven)
+* ![Download Maven](/images/downloadingMaven.PNG)
 * untar the downloaded with the following command
 ```bash 
 tar xvzf apache-maven-3.5.2-bin.tar.gz 
@@ -80,7 +80,7 @@ vi /etc/environment
 
 4. Installs Spark 
 * Download [Spark](https://spark.apache.org/downloads.html) and choose to download spark-2.2.1-bin-hadoop2.7.tgz
-* ![Download Spark](images/downloadingSpark)
+* ![Download Spark](/images/downloadingSpark.PNG)
 * After which similar to the above, extract the file 
 ```bash 
 tar xvzf spark-2.2.1-bin-hadoop2.7.tgz
@@ -133,5 +133,5 @@ spark-shell
     ```bash 
     source /etc/environment 
     ```
-    ![Package Verification](images/packageInstallationVerification)
+    ![Package Verification](/images/packageInstallationVerification.PNG)
 
