@@ -8,3 +8,4 @@ Sincerely hope this is helpful, and welcome any suggestions to make this resposi
 ## Big Data Analytics Index
 
 1. [Introduction to Big Data Technology](notes/introduction.md)
+2. [Installation of Spark in Ubuntu with Docker](notes/introudctionToSparkAndInstallation.md)
