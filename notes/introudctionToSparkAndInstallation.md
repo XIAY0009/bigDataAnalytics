@@ -135,3 +135,14 @@ spark-shell
     ```
     ![Package Verification](/images/packageInstallationVerification.PNG)
 
+* Lastly if you are going to be using Python3, you could set the environment variable PYSPARK_PYTHON,  
+   * This could be set in your ~/.bashrc by appending the following line  
+   ```bash 
+   export PYSPARK_PYTHON=/usr/bin/python3
+   ```
+   * After which source the file: 
+   ```bash 
+   source ~/.bashrc
+   ```
+
+

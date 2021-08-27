@@ -4,7 +4,7 @@
 
 * Data is considered as big when the **volume**, **velocity** or **variety** exceeds the abilities of what modern IT systems is capable of ingesting, store, analyze and process to derive **actionable** insights in a **timely** manner 
 
-* Big data has 4 key main charactistics are they are:  
+* Big data has 5 key main charactistics are they are:  
     1. **Volume** 
      * Large amount of data, and it could reach zettabytes
      * E.g. Posts to social media, number of pictures uploaded on Flickr  
@@ -19,6 +19,8 @@
     4. **Veracity** 
      * Concerns on the reliability of the data source 
      * If there are bias, inconsistencies, its accuracy and trustworthiness
+    5. **Value**
+     * The data sahould be able to derive actionble insights
 
 ## Why Big Data? 
 
