@@ -13,7 +13,7 @@
      * Between racks they are connected connected via an aggregator switch which has a 2 to 10 Gbps
      * One should try to do the computation close to the data to avoid transfering of the data from one node to the other 
      * Below shows an image of a cluster architecture 
-     * ![Cluster_Architecture](images/clusterArchitecture.PNG)
+     * ![Cluster_Architecture](/images/clusterArchitecture.PNG)
 2. **Fault Tolerance** in Storage Infrastructure 
    * We need to build fault-tolerance into the storage infrastructure because cheap nodes fail, especially when there are many 
    * Mean time to failure for 1 node is 3 years, thereby  
@@ -78,7 +78,7 @@ Let's go into detail for each of these 2 components:
            * Chunk 1, 2, 3 and 4 can still be accessed from rack 3 and 4 
            * But do note that when you have a lot of chunks, it will not be as stable, this is because:  
                * If you loose one server, the many chunks would have been lost, since in this example we have used 63- 128MB size and there are only 4 chunks, and each chunk is replicated 3 times 
-      * ![Name_Nodes_Data_Nodes](images/nameNodeDataNodes.PNG)
+      * ![Name_Nodes_Data_Nodes](/images/nameNodeDataNodes.PNG)
       * In the image above, there is the Master node a.k.a **Namenode**
         * It stores the metadata about where the chunks are located 
         * If the master node is lost, much will be affected, as we will loose the locations of the chunks, thus people do replicate it 
@@ -128,7 +128,7 @@ Let's go into detail for each of these 2 components:
                * All values v with the same key k are reduced together
                * The is one Reduce function call per unique key k  
             * Another representation of MapReduce word count problem is shown below
-               * ![Word_Count_MapReduce](/images/MapReduceWordCount2.PNG)
+               * ![Word_Count_MapReduce](/images/mapReduceWordCount1.PNG)
             * Pseudocode for Map Function
                * For each word, emit w which is the key and 1  
                ```
