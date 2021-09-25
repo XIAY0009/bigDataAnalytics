@@ -52,7 +52,7 @@
 * **Relation Links** describe Web Structure 
 * Two attributes **From** and **To**
 * Row or tuple is a pair of URLs such that there is at least a link from the first URL to the second as shown below: 
-* ![LinksTuples](images/linksTuples.PNG)
+* ![LinksTuples](/images/linksTuples.PNG)
 * Relation algebra operations with MapReduce: 
    * Relations are stored as a file in the DFS  
    * Elements of the files are tuples of the relation  

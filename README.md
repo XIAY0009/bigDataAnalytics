@@ -10,3 +10,4 @@ Sincerely hope this is helpful, and welcome any suggestions to make this resposi
 1. [Introduction to Big Data Technology](notes/introduction.md)
 2. [Installation of Spark in Ubuntu with Docker](notes/introudctionToSparkAndInstallation.md)
 3. [Map Reduce and Hadoop](notes/mapReduceAndHadoop.md)
+4. [Matrix Multiplications & Relational Algebra Operations with Map Reduce](notes/algorithmsUsingMapReduce.md)
